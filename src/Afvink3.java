@@ -254,32 +254,32 @@ public class Afvink3 extends JFrame implements ActionListener {
                     tekenveld.drawLine(50, 250, 250, 250);
                     uitleg.setText("Bolletje wint!!\n Druk op start, Daarna geef je aan welk vakje je wilt");
                     button.setText("Opnieuw?");
-                } else if (kruisje.contains("1") && kruisje.contains("4") && kruisje.contains("7")) {
+                } else if (bolletje.contains("1") && bolletje.contains("4") && bolletje.contains("7")) {
                     Graphics tekenveld = paper.getGraphics();
                     tekenveld.drawLine(50, 50, 50, 250);
-                    uitleg.setText("Kruisje wint!!\n Druk op start, Daarna geef je aan welk vakje je wilt");
+                    uitleg.setText("Bolletje wint!!\n Druk op start, Daarna geef je aan welk vakje je wilt");
                     button.setText("Opnieuw?");
-                } else if (kruisje.contains("2") && kruisje.contains("5") && kruisje.contains("8")) {
+                } else if (bolletje.contains("2") && bolletje.contains("5") && bolletje.contains("8")) {
                     Graphics tekenveld = paper.getGraphics();
                     tekenveld.drawLine(150, 50, 150, 250);
-                    uitleg.setText("Kruisje wint!!\n Druk op start, Daarna geef je aan welk vakje je wilt");
+                    uitleg.setText("Bolletje wint!!\n Druk op start, Daarna geef je aan welk vakje je wilt");
                     button.setText("Opnieuw?");
-                } else if (kruisje.contains("3") && kruisje.contains("6") && kruisje.contains("9")) {
+                } else if (bolletje.contains("3") && bolletje.contains("6") && bolletje.contains("9")) {
                     Graphics tekenveld = paper.getGraphics();
                     tekenveld.drawLine(250, 50, 250, 250);
-                    uitleg.setText("Kruisje wint!!\n Druk op start, Daarna geef je aan welk vakje je wilt");
+                    uitleg.setText("Bolletje wint!!\n Druk op start, Daarna geef je aan welk vakje je wilt");
                     button.setText("Opnieuw?");
-                } else if (kruisje.contains("1") && kruisje.contains("5") && kruisje.contains("9")) {
+                } else if (bolletje.contains("1") && bolletje.contains("5") && bolletje.contains("9")) {
                     Graphics tekenveld = paper.getGraphics();
                     tekenveld.drawLine(50, 50, 250, 250);
-                    uitleg.setText("Kruisje wint!!\n Druk op start, Daarna geef je aan welk vakje je wilt");
+                    uitleg.setText("Bolletje wint!!\n Druk op start, Daarna geef je aan welk vakje je wilt");
                     button.setText("Opnieuw?");
-                } else if (kruisje.contains("3") && kruisje.contains("5") && kruisje.contains("7")) {
+                } else if (bolletje.contains("3") && bolletje.contains("5") && bolletje.contains("7")) {
                     Graphics tekenveld = paper.getGraphics();
                     tekenveld.drawLine(50, 250, 50, 250);
-                    uitleg.setText("Kruisje wint!!\n Druk op start, Daarna geef je aan welk vakje je wilt");
+                    uitleg.setText("Volletje wint!!\n Druk op start, Daarna geef je aan welk vakje je wilt");
                     button.setText("Opnieuw?");
-                break;
+                }
             }
             case "Opnieuw?" -> {
                 paper.removeAll();
