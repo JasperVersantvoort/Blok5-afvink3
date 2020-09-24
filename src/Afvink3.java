@@ -189,7 +189,9 @@ public class Afvink3 extends JFrame implements ActionListener {
                         tekenveld.drawLine(50, 250, 50, 250);
                         xlabel.setText("Kruisje wint!!");
                         button.setText("Opnieuw?");
-                    } else {
+                    } else if (bolletje.size()+kruisje.size() == 9){
+                        xlabel.setText("Gelijkspel");
+                        button.setText("Opnieuw?");
 
                     }
                 }
@@ -288,6 +290,10 @@ public class Afvink3 extends JFrame implements ActionListener {
                         Graphics tekenveld = paper.getGraphics();
                         tekenveld.drawLine(50, 250, 50, 250);
                         xlabel.setText("Bolletje wint!!");
+                        button.setText("Opnieuw?");
+                    }
+                    else if (bolletje.size()+kruisje.size() == 9){
+                        xlabel.setText("Gelijkspel");
                         button.setText("Opnieuw?");
                     }
                 }
