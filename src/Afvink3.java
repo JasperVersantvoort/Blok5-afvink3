@@ -18,10 +18,12 @@ public class Afvink3 extends JFrame implements ActionListener {
     private ArrayList<String> bolletje = new ArrayList<String>();
 
 
+
     public static void main(String[] args) throws InterruptedException {
         Afvink3 frame = new Afvink3();
         frame.setSize(500, 500);
         frame.createGui();
+        frame.setResizable(false);
         frame.setVisible(true);
 
     }
